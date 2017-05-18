@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR1) {
             LayoutInflaterCompat.setFactory(LayoutInflater.from(this), new LayoutInflaterFactory() {
                 @Override
